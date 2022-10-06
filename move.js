@@ -55,3 +55,5 @@ function findPath(levelOrderJoined, targetX, targetY) {
   levelOrderJoined.length = levelOrderJoined.indexOf(output[0]);
   findPath(levelOrderJoined, nextTarget[0], nextTarget[1]);
 }
+
+findPossibleMove(2, 1, 7, 4);
